@@ -1,0 +1,319 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Ratan | Portfolio</title>
+    
+    <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- FontAwesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-gradient-1"></div>
+    <div class="bg-gradient-2"></div>
+    <div id="falling-icons-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">Ram Ratan portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-btn">Contact Me</a>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Ram Ratan</h1>
+                <h2 class="role">Python Developer, AI Content Creator <span class="highlight">&</span> Prompt Engineer
+                </h2>
+                <p class="tagline">Crafting intelligent solutions and modern web experiences. Student at L J University
+                    looking for exciting internship opportunities.</p>
+
+                <div class="hero-btns">
+                    <a href="#experience" class="btn btn-primary">My Experience</a>
+                    <a href="resume.pdf" class="btn btn-outline" target="_blank"><i class="fas fa-download"></i>
+                        Download Resume</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ram-ratan-b0893435a" class="social-icon" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ram_rtn_777?igsh=MXgyYWFpZnUxZzZp" class="social-icon"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="hero-image glass-card">
+                    <img src="assets/images/profile.jpg" alt="Ram Ratan" class="profile-photo">
+                </div>
+                <div class="floating-badge badge-1 glass-card">
+                    <i class="fab fa-python"></i> Python Developer
+                </div>
+                <div class="floating-badge badge-2 glass-card">
+                    <i class="fas fa-robot"></i> AI Creator
+                </div>
+                <div class="floating-badge badge-3 glass-card">
+                    <i class="fas fa-brain"></i> Prompt Engineer
+                </div>
+                <div class="floating-badge badge-4 glass-card">
+                    <i class="fas fa-code"></i> Frontend Developer
+                </div>
+                <div class="floating-badge badge-5 glass-card">
+                    <i class="fas fa-server"></i> Backend Architecture
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="highlight">Me</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <h3>I'm a passionate developer building modern web applications.</h3>
+                    <p>As a student at L J University, I've developed a strong foundation in both frontend and backend
+                        development. My journey started with a fascination for crafting beautiful user interfaces using
+                        HTML, CSS, and JavaScript, and evolved into backend logic and automation with Python.</p>
+                    <p>When I'm not coding, I create engaging AI content and engineer precise prompts, exploring the
+                        intersection of artificial intelligence and creativity. I'm actively seeking an internship where
+                        I can contribute my skills, learn from experienced professionals, and build software that makes
+                        an impact.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-text">Years of Learning</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-text">Projects Built</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-text">Dedication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My <span class="highlight">Skills</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Large Skill Card -->
+                <div class="bento-item bento-large glass-card glow-hover">
+                    <div class="bento-content align-start">
+                        <i class="fab fa-python main-icon"></i>
+                        <h3>Python Backend & Programming</h3>
+                        <p>Specializing in writing clean, efficient, and scalable backend logic and automation scripts.
+                            Passionate about solving complex problems with elegant code.</p>
+                    </div>
+                </div>
+
+                <!-- Tall Skill Card -->
+                <div class="bento-item bento-tall glass-card glow-hover">
+                    <div class="bento-content align-start">
+                        <h3>Frontend Architecture</h3>
+                        <ul class="clean-list">
+                            <li><i class="fab fa-html5"></i> HTML5 Semantic</li>
+                            <li><i class="fab fa-css3-alt"></i> Modern CSS & UI</li>
+                            <li><i class="fab fa-js"></i> JavaScript ES6+</li>
+                            <li><i class="fab fa-react"></i> Interactive UIs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Medium Skill Card -->
+                <div class="bento-item bento-medium glass-card glow-hover">
+                    <div class="bento-content align-start">
+                        <i class="fas fa-robot top-icon"></i>
+                        <h3>AI & Prompt Engineering</h3>
+                        <div class="tags">
+                            <span>LLM Integration</span>
+                            <span>Content Generation</span>
+                            <span>AI Tools</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small Skill Cards -->
+                <div class="bento-item bento-small glass-card glow-hover">
+                    <div class="center-content">
+                        <i class="fas fa-database"></i>
+                        <span>Databases</span>
+                    </div>
+                </div>
+
+                <div class="bento-item bento-small glass-card glow-hover">
+                    <div class="center-content">
+                        <i class="fas fa-brain"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education & <span class="highlight">Experience</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline glass-card">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>L J University</h3>
+                        <h4>Diploma in Computer Engineering</h4>
+                        <p>Currently pursuing my diploma, focusing on core computer science subjects, programming, and
+                            web development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>AI Content Creator</h3>
+                        <h4>Freelance / Personal Project</h4>
+                        <p>Created engaging content leveraging modern AI tools. Managed multiple platforms and analyzed
+                            audience engagement metrics.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot highlight-dot"></div>
+                    <div class="timeline-date">Present</div>
+                    <div class="timeline-content">
+                        <h3>Looking for Internship</h3>
+                        <h4>Frontend / Python Developer</h4>
+                        <p>Actively eager to join a dynamic team to apply my web development and Python skills to
+                            real-world projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <div class="line"></div>
+                <p>Feel free to reach out for collaboration or just a friendly chat.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info glass-card">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Me</h4>
+                            <p>maheshwariram51@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Gujarat, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-graduation-cap"></i></div>
+                        <div>
+                            <h4>University</h4>
+                            <p>L J University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#">Ram Ratan portfolio</a>
+                <p>Python Developer, AI Content Creator & Prompt Engineer</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ram-ratan-b0893435a" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/ram_rtn_777?igsh=MXgyYWFpZnUxZzZp" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+
+            <p class="copyright">&copy; 2024 Ram Ratan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
